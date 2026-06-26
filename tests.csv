@@ -1,0 +1,281 @@
+NO,TEST NAME,RESULT,FEES
+1,17 - OH - Progesterone,1 Week Result,400
+2,25 OH Vitamin D,48 H.Result,500
+3,Adenosine deaminase (ADA),5 Days Result,450
+4,Adrenocorticotropic hormone (ACTH) (AM),48 H.Result,350
+5,Adrenocorticotropic hormone (ACTH) (PM),48 H.Result,350
+6,Albumin,48 H.Result,90
+7,Albumin / Creatinine ratio (ACR),48 H.Result,250
+8,Albumin / Globulin ratio (A/G),48 H.Result,250
+9,Alkaline phosphatase (ALK) (ALP),48 H.Result,90
+10,(Amphetamines - Barbiturates - Benzodiazepines - Cannabinoids - Cocaine,48 H.Result,300
+11,Alpha feto protein (AFP),48 H.Result,450
+12,Ammonia,48 H.Result,450
+13,Amylase,48 H.Result,170
+14,Amyloid A protein (SAA protein),48 H.Result,400
+15,ANA (ANTI NUCLEAR ABS ) ELIZA,1 Week Result,350
+16,Angiotensin converting enzyme ( ACE),5 Days Result,900
+17,Anti Cardiolipin (ACL) (IgG),5 Days Result,450
+18,Anti Cardiolipin (ACL) (IgM),5 Days Result,450
+19,Anti Cyclic citrullinated peptide (Anti CCP),48 H.Result,450
+20,Anti deamidated gliadin peptide (anti DGP IgA),5 Days Result,2000
+21,Anti deamidated gliadin peptide (anti DGP IgG),5 Days Result,2000
+22,Anti DNA (ELISA),72 H.Result,450
+23,Anti Jo - 1,1 Week Result,2000
+24,Anti mitochondrial antibody (AMA) (IFA),1 Week Result,750
+25,Anti Mullerian Hormone (AMH),48 H.Result,650
+26,"Anti neutrophil cytoplasmic Ab (ANCA P, C) (IFA)",1 Week Result,1200
+27,Anti nuclear antibody (ANA) (ELISA),72 H.Result,350
+28,Anti nuclear antibody (ANA) (IFA),1 Week Result,700
+29,Anti Phospholipid (IgG),5 Days Result,600
+30,Anti Phospholipid (IgM),5 Days Result,600
+31,Anti Saccharomyces Cerevisiae Ab (ASCA IgA),1 Week Result,850
+32,Anti Saccharomyces Cerevisiae Ab (ASCA IgG),1 Week Result,850
+33,Anti smooth muscle Ab (ASMA) (IFA),1 Week Result,750
+34,Anti SS-A/Ro,1 Week Result,950
+35,Anti SS-B/La,1 Week Result,950
+36,Anti streptolysin O Test (ASOT) (Nephelometric quantitative),48 H.Result,130
+37,Anti Thrombin III,48 H.Result,400
+38,Anti-Gliadin (IgA),5 Days Result,1150
+39,Anti-Gliadin (IgG),5 Days Result,1150
+40,Bence Jones protein,5 Days Result,250
+41,Beta - 2 - glycoprotein I (IgG),5 Days Result,450
+42,Beta - 2 - glycoprotein I (IgM),5 Days Result,450
+43,Bilirubin (Direct),48 H.Result,100
+44,Bilirubin (Total),48 H.Result,100
+45,Bleeding time (BT),48 H.Result,50
+46,Blood group (ABO) (Slide agglutination),48 H.Result,50
+47,Blood Urea Nitrogen (BUN),48 H.Result,90
+48,Brucella (IgG),5 Days Result,900
+49,Brucella (IgM),5 Days Result,900
+50,Brucella test (Slide agglutination),48 H.Result,250
+51,C Peptide (Fasting),48 H.Result,350
+52,C Peptide (Postprandial),48 H.Result,350
+53,C reactive protein (CRP) (Nephelometric quantitative),48 H.Result,130
+54,Calcium (Ionized),48 H.Result,130
+55,Calcium (Total),48 H.Result,130
+56,Calcium in Urine,48 H.Result,130
+57,Calprotectin in Stool,72 H.Result,700
+58,Cancer antigen 125 (CA 125),48 H.Result,450
+59,Cancer antigen 15.3 (CA 15.3),48 H.Result,450
+60,Cancer antigen 19.9 (CA 19.9),48 H.Result,450
+61,Carcino embryonic antigen (CEA),48 H.Result,450
+62,Casein,4 Days Result,400
+63,Chloride (Cl-),48 H.Result,120
+64,Cholesterol (HDL),48 H.Result,180
+65,Cholesterol (LDL),48 H.Result,90
+66,Cholesterol (Non HDL),48 H.Result,90
+67,Cholesterol (Total),48 H.Result,90
+68,Cholesterol (VLDL),48 H.Result,90
+69,Clotting time (Coagulation) (CT),48 H.Result,50
+70,Complement (C3),48 H.Result,260
+71,Complement (C4),48 H.Result,260
+72,Complete blood count (CBC With RETIC),48 H.Result,300
+73,Complete blood count (CBC With FILM ),48 H.Result,200
+74,Complete blood count (CBC With RETIC+FILM ),48 H.Result,340
+75,Complete blood count (CBC) (CBP) (FBC),48 H.Result,130
+76,Coombs' test (direct) (DG gel card system),72 H.Result,200
+77,Coombs' test (indirect) (Rh Ab) (DG gel card system),72 H.Result,200
+78,Copper (CU),72 H.Result,300
+79,Cortisol (AM),48 H.Result,350
+80,Cortisol (PM),48 H.Result,350
+81,Creatinine,48 H.Result,90
+82,"Creatinine phosphokinase MB (CK MB) (mass, immunological)",48 H.Result,200
+83,Creatinine phosphokinase total (CK) (CPK),48 H.Result,170
+84,Cytomegalovirus (CMV IgG),72 H.Result,400
+85,Cytomegalovirus (CMV IgM),72 H.Result,400
+86,D - Dimer (Quantitative),48 H.Result,400
+87,Dehydroepiandrosterone (DHEA),72 H.Result,370
+88,Dehydroepiandrosterone Sulfate (DHEA S),72 H.Result,370
+89,Depakene (Valporic acid),72 H.Result,400
+90,Digoxin (Lanoxin®),48 H.Result,900
+91,ENA Panel,1 Week Result,2200
+92,Epstein Barr virus IgG (EBV IgG),4 Days Result,850
+93,Epstein Barr virus IgG (EBV IgM),4 Days Result,850
+94,Erythrocyte sedimentation rate (ESR),48 H.Result,130
+95,Estradiol – Estrogen (E2),48 H.Result,250
+96,Ferritin,48 H.Result,200
+97,FK 506 (Prograf) (Tacrolimus),72 H.Result,1200
+98,Folic acid (Vitamin B9),72 H.Result,950
+99,Folic acid (Vitamin B9) in RBCs,72 H.Result,1100
+100,Follicular stimulating hormone (FSH),48 H.Result,200
+101,Fructosamine,72 H.Result,250
+102,Gamma glutamyl transferase (GGT),48 H.Result,90
+103,Glomerular filtration rate (GFR) (Cystatin C),48 H.Result,160
+104,Glucose (fasting) (FBS) (FBG),48 H.Result,60
+105,Glucose (postprandial) (PPBS) (PPBG),48 H.Result,60
+106,Glucose (random) (RBS) (RBG),48 H.Result,60
+107,Glucose-6-phosphate dehydrogenase (G6PD),72 H.Result,400
+108,Glutamic Oxaloacetate transferase (GOT) Aspartate amino transferase,48 H.Result,90
+109,Glutamic Pyruvic transferase (GPT) Alanine amino transferase (ALT),48 H.Result,90
+110,Glycosylated Haemoglobin (HbA1C),48 H.Result,170
+111,Growth hormone (G.H),48 H.Result,400
+112,Haemoglobin (HB),48 H.Result,100
+113,Hb electrophoresis (Capillary),4 Days Result,500
+114,Helicobacter Pylori (Ab),72 H.Result,400
+115,Helicobacter Pylori (Ag) (ELISA),72 H.Result,400
+116,Helicobacter Pylori (IgA),72 H.Result,400
+117,Helicobacter Pylori (IgG),72 H.Result,350
+118,Helicobacter Pylori (IgM),72 H.Result,400
+119,Hepatitis A virus IgM (HAV IgM),48 H.Result,400
+120,Hepatitis B (HBe Ag),72 H.Result,400
+121,Hepatitis B ( HBe Ab),72 H.Result,400
+122,Hepatitis B virus core Ab total (HBc Ab),48 H.Result,350
+123,Hepatitis B virus core Ab total (HBc IgM),72 H.Result,350
+124,Hepatitis B virus surface Ag (HBs Ab),72 H.Result,350
+125,Hepatitis B virus surface Ag (HBs Ag),48 H.Result,200
+126,Hepatitis C virus IgG (HCV Ab),48 H.Result,200
+127,Hepatitis C virus IgM (HCV IgM),48 H.Result,450
+128,Herpes simplex [I+II] (HSV [I+II] IgG),72 H.Result,800
+129,Herpes simplex [I+II] (HSV [I+II] IgM),72 H.Result,800
+130,Homeostasis model assessment Insulin index (HOMA- IR),48 H.Result,330
+131,Homocysteine,48 H.Result,850
+132,Human Chorionic Gonadotropin Beta subunit (B HCG),48 H.Result,250
+133,Human immunodeficiency virus (HIV,48 H.Result,200
+134,Immunoglobulin A (IgA),48 H.Result,250
+135,Immunoglobulin E (IgE),48 H.Result,250
+136,Immunoglobulin G (IgG),48 H.Result,250
+137,Immunoglobulin M (IgM),48 H.Result,250
+138,Insulin (Fasting),48 H.Result,300
+139,Insulin (Postprandial),48 H.Result,300
+140,Insulin like growth factor-1 (IGF-1),72 H.Result,1200
+141,Interleukin-6 (IL-6),48 H.Result,850
+142,Iron,48 H.Result,180
+143,Lactate dehydrogenase (LDH),48 H.Result,150
+144,Lipase,48 H.Result,170
+145,Lipid profile,48 H.Result,270
+146,Lipoprotein (a),3:5 dayes,900
+147,Lithum,48 H.Result,1000
+148,Liver Kidney microsomal Ab (LKM Ab) (IFA),1 Week Result,750
+149,Lupus anticoagulants (DRVVT),48 H.Result,1200
+150,Luteinizing hormone (LH),48 H.Result,200
+151,Magnesium (Mg),48 H.Result,130
+152,Magnesium (Mg) in Urine,48 H.Result,130
+153,Microalbuminuria (Micral),48 H.Result,200
+154,IgE (Milk),4 Days Result,850
+155,Occult blood (Immunological) quantitative,72 H.Result,200
+156,Pancreatic amylase,72 H.Result,170
+157,Parathormone (Intact PTH),48 H.Result,400
+158,Parathormone (PTH),48 H.Result,400
+159,Partial thromboplastin time (PTT),48 H.Result,100
+160,PCR (MTHFR + Factor V Leiden) gene mutation,1 Week Result,3600
+161,PCR (MTHFR + Prothrombin + Factor V Leiden) gene mutatio,1 Week Result,5400
+162,PCR (MTHFR + Prothrombin) gene mutation,1 Week Result,3100
+163,PCR (Prothrombin + Factor V Leiden) gene mutation,1 Week Result,3600
+164,PCR for Factor V Leiden gene mutation 3 Mutant genes:,1 Week Result,1800
+165,PCR for Familial Mediterranean fever gene mutation (FMF) (For the 12,5 Days Result,2500
+166,PCR for Hepatitis B virus - quantitative (PCR HBV) (Real time PCR),5 Days Result,780
+167,PCR for Hepatitis C virus - quantitative (PCR HCV) (Real time PCR),5 Days Result,780
+168,PCR For HLA-B27,1 Week Result,1150
+169,PCR For HLA-B51,1 Week Result,2000
+170,PCR for Human immunodeficiency virus (PCR HIV-1),1 Week Result,1850
+171,PCR for Human immunodeficiency virus (PCR HIV-2),1 Week Result,1850
+172,PCR for Lactase gene mutation,5 Days Result,3500
+173,PCR for Methylenetetrahydrofolate reductase (MTHFR) 2 Mutant,1 Week Result,1800
+174,PCR for Prothrombin gene mutation 1 Mutant gene:- G20210A,1 Week Result,1850
+175,"Phenytoin (Epanutin®, Epilog®, Dilantin®)",48 H.Result,400
+176,Phosphorus (Ph),48 H.Result,130
+177,Phosphorus in Urine,48 H.Result,130
+178,Platelet count (Plt),48 H.Result,100
+179,Potassium (K),48 H.Result,130
+180,Potassium (K) in Urine,48 H.Result,130
+181,Pregnancy in blood,48 H.Result,130
+182,Pregnancy in Urine,48 H.Result,130
+183,Pro B- type natriuretic peptide (Pro BNP),72 H.Result,700
+184,Procalcitonin (PCT - Q),48 H.Result,1000
+185,Progesterone hormone (Prog),48 H.Result,200
+186,Prolactin hormone (PRL),48 H.Result,200
+187,Prostatic Specific Antigen (PSA Total),48 H.Result,300
+188,Prostatic Specific Antigen (PSATotal & Free),48 H.Result,600
+189,Protein (total protein) (T.P),48 H.Result,80
+190,Protein / Creatinine ratio (PCR),48 H.Result,200
+191,Protein C,72 H.Result,700
+192,Protein electrophoresis (Capillary),72 H.Result,750
+193,Protein electrophoresis (Capillary) in Urine,72 H.Result,750
+194,Protein in Urine,48 H.Result,200
+195,Protein S,72 H.Result,700
+196,Prothrombin time and activity (PT) (PC) (PA) & INR,48 H.Result,100
+197,Rapid plasma antigen (RPR) or (VDRL),48 H.Result,300
+198,Reticulocytes (Retics),48 H.Result,250
+199,Rhesus factor (Rh group) (Slide agglutination),48 H.Result,50
+200,Rheumatoid factor (RF) (Nephelometric quantitative),48 H.Result,150
+201,Rose Waller (RW),48 H.Result,250
+202,Rubella (IgG),48 H.Result,250
+203,Rubella (IgM),48 H.Result,250
+204,Schistosomal (Bilharzia) Ab (IHA),48 H.Result,900
+205,Sex hormone binding globulin (SHBG),48 H.Result,1000
+206,Sodium (Na),48 H.Result,130
+207,Sodium (Na) in Urine,48 H.Result,130
+208,Stool analysis,48 H.Result,80
+209,Stool culture & sensitivity,5 Days Result,350
+210,Testosterone hormone (Free),48 H.Result,250
+211,Testosterone hormone (Total),48 H.Result,250
+212,Tetraiodothyronine - Free (FT4),48 H.Result,150
+213,Tetraiodothyronine - Total (T4),48 H.Result,150
+214,Thyroglobulin (Tg),48 H.Result,500
+215,Thyroid anti Microsomal Ab,72 H.Result,300
+216,Thyroid anti Peroxidase Ab (Anti TPO),72 H.Result,350
+217,Thyroid anti Thyroglobulin Ab (Anti Tg),72 H.Result,350
+218,,72 H.Result,900
+219,Thyroid stimulating hormone (TSH),48 H.Result,200
+220,Tissue transglutaminase (TTG) (IgA),5 Days Result,850
+221,Tissue transglutaminase (TTG) (IgG),5 Days Result,850
+222,Total iron binding capacity (TIBC),48 H.Result,180
+223,Toxoplasma (IgG),48 H.Result,250
+224,Toxoplasma (IgM),48 H.Result,250
+225,TPHA,5 Days Result,300
+226,Transferrin,48 H.Result,300
+227,Transferrin Saturation,48 H.Result,300
+228,Triglycerides (TGs),48 H.Result,90
+229,Triiodothyronine - Free (FT3),48 H.Result,150
+230,Triiodothyronine - Total (T3),48 H.Result,150
+231,Troponin (I) (quantitative),48 H.Result,500
+232,Troponin (T) (quantitative) (H.S),48 H.Result,380
+233,Urea,48 H.Result,90
+234,Uric acid,48 H.Result,90
+235,Urine analysis,48 H.Result,80
+236,Urine culture & sensitivity,5 Days Result,350
+237,Vitamin B12,48 H.Result,750
+238,White Blood Cell (WBC) (total & differential),48 H.Result,100
+239,Widal test(Slide agglutination),48 H.Result,200
+240,Zinc,48 H.Result,250
+1,TSH,"48
+H.Result",500
+2,FT3,,
+3,FT4,,
+1,Thyroid Anti-microsomal Ab,"72
+H.Result",1000
+2,Thyroid Anti-Peroxidase Ab (Anti TPO),,
+3,Thyroid Anti-Thyroglobulin Ab (Anti TG),,
+4,TSH Receptor Ab (TRAb),72 H.Result,950
+1,CBC,48 H.Result,430
+2,PT,,
+3,PTT,,
+4,BT,,
+5,CT,,
+1,Ferritin,48 H.Result,1170
+2,Iron,,
+3,TIBC,,
+4,Transferrin,,
+5,Transferrin saturation,,
+1,Haemoglobin Capillary Electrophoresis,4 Days Result,1840
+2,FBS,,
+3,CBC,,
+4,HCV Ab,,
+5,HBs Ag,,
+6,RPR (VDRL),,
+7,Testosterone (Total),,
+8,HIV Ab,,
+1,Haemoglobin Capillary Electrophoresis,4 Days Result,2940
+2,FBS,,
+3,CBC,,
+4,HCV Ab,,
+5,HBs Ag,,
+6,RPR (VDRL),,
+7,Toxoplasma IgG,,
+8,Toxoplasma IgM,,
+9,FSH,,
+10,LH,,
+11,Progesterone,,
+12,HIV Ab,,
+13,Rubella IgG,,

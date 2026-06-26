@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html lang="ar">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>mozmen labs</title>
+
+<style>
+
+body{
+font-family: Arial;
+direction: rtl;
+padding:20px;
+background:#f5f5f5;
+}
+
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+font-size:18px;
+}
+
+button{
+padding:6px 12px;
+cursor:pointer;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:8px;
+margin-top:10px;
+}
+
+.row{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin:6px 0;
+}
+
+/* ألوان التحليل */
+
+.test-name{
+color:#1a73e8;
+font-weight:bold;
+}
+
+.test-time{
+color:#e53935;
+margin:0 6px;
+font-size:14px;
+}
+
+.test-price{
+color:#2e7d32;
+font-weight:bold;
+}
+
+/* نتائج البحث */
+
+#results .row{
+font-size:16px;
+padding:6px 0;
+border-bottom:1px solid #eee;
+}
+
+#results button{
+font-size:14px;
+padding:4px 8px;
+}
+
+/* التحاليل المختارة */
+
+#selected .row{
+font-size:22px;
+font-weight:bold;
+}
+
+/* موبايل */
+
+@media (max-width:768px){
+
+body{
+font-size:22px;
+padding:16px;
+}
+
+input{
+font-size:22px;
+padding:16px;
+}
+
+button{
+font-size:18px;
+padding:12px;
+border-radius:10px;
+background:#2b7cff;
+color:white;
+border:none;
+}
+
+#results .row{
+font-size:16px;
+}
+
+#selected .row{
+font-size:24px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>تسعير التحاليل</h2>
+
+<input id="search" placeholder="ابحث عن تحليل">
+
+<div id="results" class="card"></div>
+
+<h3>التحاليل المختارة</h3>
+<div id="selected" class="card"></div>
+
+<h3>الخصم %</h3>
+<input type="number" id="discount" placeholder="0 - 100" min="0" max="100">
+<h3>الإجمالي</h3>
+
+<div class="card">
+
+<div class="row">
+<span>قبل الخصم</span>
+<span id="total">0</span>
+</div>
+
+<div class="row">
+<span>بعد الخصم</span>
+<span id="final">0</span>
+</div>
+
+</div>
+
+<button onclick="copyTests()">نسخ التحاليل</button>
+
+<script>
+
+let tests = []
+
+fetch("tests.csv")
+.then(res => res.text())
+.then(data => {
+
+let rows = data.split("\n")
+
+rows.forEach(row => {
+
+if(!row.trim()) return
+
+let cols = row.split(",")
+
+if(cols.length < 4) return
+
+let name = cols[1].trim()
+let time = cols[2].trim()
+let price = parseFloat(cols[3])
+
+if(!name || isNaN(price)) return
+
+tests.push({
+name:name,
+time:time,
+price:price
+})
+
+})
+
+})
+
+let selected = []
+
+const search = document.getElementById("search")
+const results = document.getElementById("results")
+const selectedDiv = document.getElementById("selected")
+const totalSpan = document.getElementById("total")
+const finalSpan = document.getElementById("final")
+const discountInput = document.getElementById("discount")
+
+search.addEventListener("input",function(){
+
+let value = search.value.toLowerCase().trim()
+
+results.innerHTML=""
+
+if(value === ""){
+results.style.display="none"
+return
+}
+
+results.style.display="block"
+
+tests
+.filter(t=>t.name.toLowerCase().includes(value))
+.forEach(t=>{
+
+let row=document.createElement("div")
+row.className="row"
+
+row.innerHTML=`
+<span>
+<span class="test-name">${t.name}</span>
+<span class="test-time">${t.time}</span>
+<span class="test-price">${t.price}</span>
+</span>
+<button onclick="addTest('${t.name}')">اضافة</button>
+`
+
+results.appendChild(row)
+
+})
+
+})
+
+function addTest(name){
+
+let test = tests.find(t=>t.name==name)
+
+selected.push(test)
+
+renderSelected()
+
+search.value=""
+results.innerHTML=""
+results.style.display="none"
+
+}
+
+function removeTest(index){
+
+selected.splice(index,1)
+
+renderSelected()
+
+}
+
+function renderSelected(){
+
+selectedDiv.innerHTML=""
+
+selected.forEach((t,i)=>{
+
+let row=document.createElement("div")
+
+row.className="row"
+
+row.innerHTML=`
+<span>
+<span class="test-name">${t.name}</span>
+<span class="test-time">${t.time}</span>
+<span class="test-price">${t.price}</span>
+</span>
+<button onclick="removeTest(${i})">حذف</button>
+`
+
+selectedDiv.appendChild(row)
+
+})
+
+calculate()
+
+}
+
+function calculate(){
+
+let total = selected.reduce((sum,t)=>sum+t.price,0)
+
+let discount = parseInt(discountInput.value) || 0
+
+// إزالة الأصفار في البداية
+discount = Number(discount)
+
+// تحديد النطاق 0 - 100
+if(discount < 0) discount = 0
+if(discount > 100) discount = 100
+
+discountInput.value = discount
+
+let final = total - (total * discount / 100)
+
+totalSpan.innerText = total
+finalSpan.innerText = final.toFixed(2)
+
+}
+
+discountInput.addEventListener("input",calculate)
+
+function copyTests(){
+
+if(selected.length === 0){
+alert("لا يوجد تحاليل")
+return
+}
+
+let text = "التحاليل:\n"
+
+selected.forEach(t=>{
+text += "- " + t.name + " (" + t.time + ") (" + t.price + ")\n"
+})
+
+let total = totalSpan.innerText
+let discount = discountInput.value
+let final = finalSpan.innerText
+
+text += "\n"
+text += "الإجمالي قبل الخصم: " + total + "\n"
+text += "الخصم: " + discount + "%\n"
+text += "الإجمالي بعد الخصم: " + final
+
+navigator.clipboard.writeText(text)
+
+alert("تم نسخ التحاليل")
+
+}
+
+</script>
+
+</body>
+</html>
